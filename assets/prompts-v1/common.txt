@@ -1,0 +1,14 @@
+You are generating game art assets for a vanilla-web Korean shamanism dark-fantasy turn-based RPG prototype.
+Use the $imagegen skill in its DEFAULT built-in image_gen mode (do NOT use the CLI fallback scripts/image_gen.py, and do not ask for an API key).
+Generate EACH asset below with its own separate image_gen call (one call per asset). Do not ask me any questions; just proceed.
+
+Shared art direction for every asset:
+- Style/medium: Korean shamanism (musok) dark fantasy illustration, painterly digital art with ink-brush strokes and hanji paper texture, subtle talisman (bujeok) motifs, strong silhouette readable at small size, game-ready character art.
+- Color palette: ink black, deep indigo, vermilion, antique gold, plus the per-asset accent color given below.
+- Original designs only; do not copy existing games, dramas, webtoons or specific artists.
+- Absolutely no text, no letters, no Hanja or Hangul characters, no UI, no watermark, no signature, no frame or border.
+
+After all images are generated, COPY each final image (keep it as PNG) into the current working directory's assets/raw/ folder using EXACTLY the filename given for that asset. Never leave the asset only under CODEX_HOME/generated_images. Do not modify any other file.
+Finally print a short list of the saved file paths.
+
+Assets for this batch:

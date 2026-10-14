@@ -1,0 +1,5 @@
+ATTACK POSES for the four player characters, FACING RIGHT, dynamic mid-strike key frame, full body, portrait 1024x1536. Allow a slightly wider stance and motion in the costume, but keep effects small and the silhouette readable.
+1) assets/raw2/player-hando-attack.png - Han Doyun striking forward: stepping in hard and thrusting the carved totem ward staff forward like a spear while the brass bell cluster swings and rings in the trailing hand.
+2) assets/raw2/player-mugyeom-attack.png - Kang Mugyeom in a deep forward lunge, one curved ritual knife slashing forward at full extension, the other drawn back, sleeves and ribbons streaming behind.
+3) assets/raw2/player-chohui-attack.png - Yun Chohui whipping the long white silk scarf forward in a sweeping arc toward the right, a glowing violet thread lashing forward from her hand, robe swirling.
+4) assets/raw2/player-yujin-attack.png - Baek Yujin thrusting her hand forward to fling three blank yellow paper talismans flying toward the right (abstract red brush swirls only, no writing), hat cords and robe flaring.

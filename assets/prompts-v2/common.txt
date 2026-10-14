@@ -1,0 +1,17 @@
+You are generating game art assets for a vanilla-web Korean shamanism dark-fantasy turn-based RPG prototype.
+Use the $imagegen skill in its DEFAULT built-in image_gen mode (do NOT use the CLI fallback scripts/image_gen.py, and do not ask for an API key).
+Generate EACH asset below with its own separate image_gen call (one call per asset). Do not ask me any questions; just proceed.
+
+Shared art direction for every character sprite:
+- Use case: stylized-concept. Asset type: 2D side-view battle sprite for a tactical RPG battle scene.
+- Style/medium: lush hand-painted 2D fantasy game sprite in the manner of high-end Japanese hand-painted 2D tactical RPGs: rich painterly brushwork, soft painted shading with glossy highlights, clean readable silhouette, slightly stylized proportions (about 6.5 heads tall), elegant expressive anime-leaning faces, ornate costume detail.
+- Theme: Korean shamanism (musok) dark fantasy. Palette: ink black, deep indigo, vermilion, antique gold, plus the per-asset accent color.
+- Strict SIDE VIEW (near-profile, the body turned about 80 degrees toward the facing direction given below). Full body, head to feet visible, feet on an implied flat ground line at the bottom, the character fills about 90% of the image height. Keep visual effects small so the silhouette stays clear.
+- Transparent background (real alpha). No ground shadow, no frame, no border.
+- Original designs only; do not copy any existing game, its characters, UI or logos, or any specific artist.
+- Absolutely no text, no letters, no Hanja or Hangul characters, no UI, no watermark, no signature.
+
+After all images are generated, COPY each final image (keep it as PNG) into the current working directory's assets/raw2/ folder using EXACTLY the filename given for that asset (create the folder if needed). Never leave the asset only under CODEX_HOME/generated_images. Do not modify any other file.
+Finally print a short list of the saved file paths.
+
+Assets for this batch:

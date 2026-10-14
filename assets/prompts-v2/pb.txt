@@ -1,0 +1,5 @@
+BUST PORTRAITS for the four player characters, used in a command panel and in comic-style cut-ins. For these four, ignore the full-body and side-view rules: draw a head-and-shoulders bust (chest up), three-quarter view turned toward the RIGHT, confident battle expression, dramatic rim lighting, same hand-painted style, transparent background, square 1024x1024, the head in the upper middle with a little space above.
+1) assets/raw2/bust-hando.png - Han Doyun bust, calm determined gaze, bells and staff top visible at the edge.
+2) assets/raw2/bust-mugyeom.png - Kang Mugyeom bust, fierce grin, a knife blade raised near the face.
+3) assets/raw2/bust-chohui.png - Yun Chohui bust, serene focused look, white silk scarf curling around the shoulders.
+4) assets/raw2/bust-yujin.png - Baek Yujin bust, sharp gaze under the wide hat brim, a talisman held near the face.

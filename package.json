@@ -1,0 +1,10 @@
+{
+  "name": "shaman-infinite-rpg-prototype-5",
+  "private": true,
+  "type": "module",
+  "description": "Korean shaman turn-based clash RPG prototype (vanilla web).",
+  "scripts": {
+    "start": "python -m http.server 8125",
+    "test": "node tests/run-tests.js"
+  }
+}

@@ -1,0 +1,5 @@
+ATTACK POSES for the four bosses, FACING LEFT, dynamic mid-strike key frame, full body, same canvas shape as the reference (portrait 1024x1536, or square 1024x1024 for the bier king).
+1) assets/raw2/boss-rage-attack.png - The fire-ghost captain swinging the flaming glaive in a huge leftward slash, flames roaring along the blade.
+2) assets/raw2/boss-anxiety-attack.png - The nameless underworld messenger lashing the blank scroll forward like a whip of yellow wisps, a skeletal hand reaching out to the left.
+3) assets/raw2/boss-obsession-attack.png - The thousand-year knot dokkaebi slamming its giant knotted club down to the left, red threads exploding outward.
+4) assets/raw2/boss-despair-attack.png - The bier king lunging left on ghostly legs, a long skeletal arm sweeping forward while the spectral mourners wail.

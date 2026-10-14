@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="한국 설화풍 무당 4인 파티의 윷 경합 턴제 RPG 프로토타입">
+  <title>경계의 굿 · 무당 무한 경합</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gowun+Batang:wght@400;700&family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main id="app" class="app">
+    <p class="startup-hint" id="startupHint">이 게임은 ES 모듈을 사용합니다. 이 파일을 직접 열지 말고, 프로젝트 폴더에서 <code>npm start</code>를 실행한 뒤 <code>http://localhost:8125</code>로 접속해 주세요.</p>
+    <header class="hud-top">
+      <div class="stage-ribbon"><span class="no">굿</span><span class="kind">경계의 굿</span></div>
+      <div class="top-meta" id="stageInfo" aria-live="polite"></div>
+      <nav class="top-actions" aria-label="게임 설정">
+        <button type="button" class="hud-btn" id="helpBtn">도움말</button>
+        <button type="button" class="hud-btn" id="speedBtn" aria-label="연출 속도">연출 ×1</button>
+        <button type="button" class="hud-btn" id="muteBtn" aria-pressed="false">소리 켬</button>
+      </nav>
+    </header>
+
+    <section class="stage" id="field" aria-label="전장">
+      <div class="stage-bg" aria-hidden="true"></div>
+      <div class="units" id="units"></div>
+      <div class="banner" id="banner" role="status" aria-live="polite"></div>
+    </section>
+
+    <section class="battle-ui" aria-label="전투 명령">
+      <div class="party-commands" id="partyCommands"></div>
+      <aside class="command-side">
+        <ol class="command-log" id="commandLog" aria-label="이번 턴 명령"></ol>
+        <div class="threats" id="threats"></div>
+        <button type="button" class="start-btn" id="confirmBtn" disabled><span>턴 확정</span></button>
+        <button type="button" class="hud-btn small" id="skipBtn" hidden>연출 건너뛰기</button>
+        <p class="hint" id="hint" aria-live="polite"></p>
+      </aside>
+    </section>
+
+    <section class="clash-overlay" id="clashOverlay" hidden aria-live="polite">
+      <div class="clash-card">
+        <div class="clash-side player" id="clashPlayer"></div>
+        <div class="clash-center">
+          <div class="clash-matchup" id="clashMatchup"></div>
+          <div class="pips" id="pipsPlayer"></div>
+          <div class="yut-board" id="yutPlayer"></div>
+          <div class="clash-value" id="cvPlayer">–</div>
+          <div class="clash-message" id="clashMessage"></div>
+          <div class="clash-value" id="cvEnemy">–</div>
+          <div class="yut-board" id="yutEnemy"></div>
+          <div class="pips" id="pipsEnemy"></div>
+        </div>
+        <div class="clash-side enemy" id="clashEnemy"></div>
+      </div>
+    </section>
+    <div class="fusion-overlay" id="fusionOverlay" hidden></div>
+    <div class="modal-layer" id="modalLayer" hidden></div>
+    <div class="error-banner" id="errorBanner" hidden role="alert"></div>
+    <div class="dev-panel" id="devPanel" hidden></div>
+    <canvas class="fx-canvas" id="fx" aria-hidden="true"></canvas>
+  </main>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

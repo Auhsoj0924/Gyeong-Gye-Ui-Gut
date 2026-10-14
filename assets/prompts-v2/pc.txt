@@ -1,0 +1,5 @@
+ATTACK POSES for the four normal enemies, FACING LEFT, dynamic mid-strike key frame, full body, portrait 1024x1536.
+1) assets/raw2/enemy-rage-ghost-attack.png - The burning wandering ghost lunging left with a wide flaming claw swipe, hair and rags whipping back.
+2) assets/raw2/enemy-anxiety-ghost-attack.png - The door-crack ghost lurching left with its long hair whipping forward and a long pale hand reaching out, screaming, the door fragment swung forward.
+3) assets/raw2/enemy-obsession-goblin-attack.png - The knot dokkaebi leaping left and smashing its knotted club down, red threads flying.
+4) assets/raw2/enemy-despair-corpse-attack.png - The bier dead swinging its broken bier pole in a heavy leftward arc, mist trailing.
